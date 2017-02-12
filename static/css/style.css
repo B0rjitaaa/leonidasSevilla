@@ -252,7 +252,7 @@ ul.social-icons li .icon-button .pinterest:hover{
 }
 .banner-bottom-grids h3:before{
 	content: '';
-    background: url(../../media/img-sp.png) no-repeat -8px -238px;
+    /* background: url(../../media/img-sp.png) no-repeat -8px -238px; */
     display: block;
     width: 25px;
     height: 25px;
@@ -262,7 +262,7 @@ ul.social-icons li .icon-button .pinterest:hover{
 }
 .banner-bottom-grids h3:after{
 	content: '';
-    background: url(../../media/img-sp.png) no-repeat -56px -238px;
+    /* background: url(../../media/img-sp.png) no-repeat -56px -238px; */
     display: block;
     width: 25px;
     height: 25px;
@@ -316,7 +316,8 @@ ul.social-icons li .icon-button .pinterest:hover{
 }
 
 .teal:before{
-    background:rgba(57, 188, 84, 0.75);
+    /* background:rgba(57, 188, 84, 0.75);*/
+    background: rgba(0, 15, 74, 0.82);
 }
 .burst-circle:hover:before{
     -webkit-transform: scale(1.5,1.5);
@@ -921,7 +922,7 @@ figure.effect-julia:hover p {
 /*-- //services --*/
 /*-- services-bottom --*/
 .services-bottom{
-	background:url(../../media/6.jpg) no-repeat 0px 0px;
+	background:url(../../media/wallpaper.jpg) no-repeat 0px -600px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
