@@ -123,6 +123,13 @@ DATE_INPUT_FORMATS = ('%d/%m/%Y',)
 DATETIME_INPUT_FORMATS = ('%d/%m/%Y %H:%M',)
 
 
+# EMAIL
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.1and1.es'
+EMAIL_HOST_USER = 'info@leonidassevilla.es'
+EMAIL_HOST_PASSWORD = ''
+EMAIL_PORT = 587
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/

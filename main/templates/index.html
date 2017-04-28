@@ -89,23 +89,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 
 <!-- services-bottom -->
-	<div class="services-bottom">
-		<!-- 
-		<div class="container">
-			<div class="services-bottom-info animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="800ms">
-				<div class="services-bottom-info1">
-					<span></span>
-				</div>
-				<h3><i>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam 
-					nihil molestiae consequatur</i></h3>
-				<p>But who has any right to find fault with a man who chooses to enjoy 
-							a pleasure that has no annoying consequences, or one who avoids a pains.</p>
-				<div class="services-bottom-info-pos">
-					<img src="{{ MEDIA_URL }}/1.png" alt=" " class="img-responsive" />
-				</div>
-			</div>
-		</div>-->
-	</div>
+	<div class="services-bottom"></div>
 <!-- //services-bottom -->
 
 <!-- gallery -->
@@ -116,22 +100,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="gallery-grids">
 				<div class="gallery-grid animated wow slideInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
 					<a href="{{ MEDIA_URL }}/1_choco.jpg" class="b-link-stripe b-animate-go  swipebox" title="Chocolates Leonidas Sevilla">
-						<img src="{{ MEDIA_URL }}/1_choco.jpg" class="img-responsive" alt="" />
+						<img src="{{ MEDIA_URL }}/1_choco.jpg" class="img-responsive" alt="Chocolates Leonidas Sevilla" />
 					</a>
 				</div>
 				<div class="gallery-grid1 animated wow slideInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
 					<a href="{{ MEDIA_URL }}/3_choco.jpg" class="b-link-stripe b-animate-go  swipebox" title="Chocolates Leonidas Sevilla">
-						<img src="{{ MEDIA_URL }}/3_choco.jpg" class="img-responsive" alt="" />
+						<img src="{{ MEDIA_URL }}/3_choco.jpg" class="img-responsive" alt="Chocolates Leonidas Sevilla" />
 					</a>
 				</div>
 				<div class="gallery-grid animated wow slideInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
 					<a href="{{ MEDIA_URL }}/2_choco.jpg" class="b-link-stripe b-animate-go  swipebox" title="Chocolates Leonidas Sevilla">
-						<img src="{{ MEDIA_URL }}/2_choco.jpg" class="img-responsive" alt="" />
+						<img src="{{ MEDIA_URL }}/2_choco.jpg" class="img-responsive" alt="Chocolates Leonidas Sevilla" />
 					</a>
 				</div>
 				<div class="gallery-grid1 animated wow slideInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
 					<a href="{{ MEDIA_URL }}/5_choco.jpg" class="b-link-stripe b-animate-go  swipebox" title="Chocolates Leonidas Sevilla">
-						<img src="{{ MEDIA_URL }}/5_choco.jpg" class="img-responsive" alt="" />
+						<img src="{{ MEDIA_URL }}/5_choco.jpg" class="img-responsive" alt="Chocolates Leonidas Sevilla" />
 					</a>
 				</div>
 				<div class="clearfix"> </div>
@@ -173,46 +157,39 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="clearfix"> </div>
 			</div>
 			<div class="mail-grids1">
-				<div class="col-md-6 mail-grids1-sub animated wow slideInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
-					<div class="mail-grids1-sub1">
-						<div class="mail-grids1-sub1-grid">
-							<h4>Nombre</h4>
-							<form>
-								<input type="text" value=" " onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' ';}" required="">
-							</form>
-						</div>
-						<div class="mail-grids1-sub1-grid">
-							<h4>Apellidos</h4>
-							<form>
-								<input type="text" value=" " onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' ';}" required="">
-							</form>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 mail-grids1-sub animated wow slideInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
-					<div class="mail-grids1-sub1">
-						<div class="mail-grids1-sub1-grid">
-							<h4>Email</h4>
-							<form>
-								<input type="email" value=" " onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' ';}" required="">
-							</form>
-						</div>
-						<div class="mail-grids1-sub1-grid">
-							<h4>Asunto</h4>
-							<form>
-								<input type="text" value=" " onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' ';}" required="">
-							</form>
+				<form action="{% url 'index' %}" method="post">
+					{% csrf_token %}
+					<div class="col-md-6 mail-grids1-sub animated wow slideInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+						<div class="mail-grids1-sub1">
+							<div class="mail-grids1-sub1-grid">
+								<h4>Nombre</h4>
+								<input type="text" value=" " name="name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' ';}" required>
+							</div>
+							<div class="mail-grids1-sub1-grid">
+								<h4>Apellidos</h4>
+								<input type="text" value=" " name="surname" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' ';}" required>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="clearfix"> </div>
-				<div class="mail-grids1-sub1-grid mail-grids1-sub1-grid-textarea animated wow slideInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
-					<h4>Mensaje</h4>
-					<form>
-						<textarea type="text"  onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' ';}" required=""> </textarea>
+					<div class="col-md-6 mail-grids1-sub animated wow slideInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
+						<div class="mail-grids1-sub1">
+							<div class="mail-grids1-sub1-grid">
+								<h4>Email</h4>
+								<input type="email" value=" " name="email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' ';}" required>
+							</div>
+							<div class="mail-grids1-sub1-grid">
+								<h4>Asunto</h4>
+								<input type="text" value=" " name="subject" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' ';}" required>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+					<div class="mail-grids1-sub1-grid mail-grids1-sub1-grid-textarea animated wow slideInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
+						<h4>Mensaje</h4>
+						<textarea type="text"  name="body" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' ';}" required> </textarea>
 						<input type="submit" value="Enviar" >
-					</form>
-				</div>
+					</div>
+				</form>
 			</div>
 		</div>
 	</div>
