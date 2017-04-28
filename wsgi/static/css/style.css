@@ -32,7 +32,7 @@ body a:hover{
 	-ms-transition:.5s ease-in-out;
 }
 .banner{
-	/*background:url(../images/banner.jpg) no-repeat 0px 0px;*/
+	/*background:url(../../media/banner.jpg) no-repeat 0px 0px;*/
     background-color: #000f4a;
 	background-size:cover;
 	-webkit-background-size:cover;
@@ -182,35 +182,35 @@ ul.social-icons {
     margin:0;
 }
 ul.social-icons li .icon-button .icon-twitter{
-    background:url(../images/img-sp.png) no-repeat 16px 14px;
+    background:url(../../media/img-sp.png) no-repeat 16px 14px;
     display: block;
 }
 ul.social-icons li .icon-button .icon-twitter:hover{
-    background:url(../images/img-sp.png) no-repeat -260px 14px;
+    background:url(../../media/img-sp.png) no-repeat -260px 14px;
     display: block;
 }
 ul.social-icons li .icon-button .icon-google{
-    background:url(../images/img-sp.png) no-repeat -40px 13px;
+    background:url(../../media/img-sp.png) no-repeat -40px 13px;
     display: block;
 }
 ul.social-icons li .icon-button .icon-google:hover{
-    background:url(../images/img-sp.png) no-repeat -324px 13px;
+    background:url(../../media/img-sp.png) no-repeat -324px 13px;
     display: block;
 }
 ul.social-icons li .icon-button .icon-v{
-    background:url(../images/img-sp.png) no-repeat -99px 14px;
+    background:url(../../media/img-sp.png) no-repeat -99px 14px;
     display: block;
 }
 ul.social-icons li .icon-button .icon-v:hover{
-    background:url(../images/img-sp.png) no-repeat -398px 14px;
+    background:url(../../media/img-sp.png) no-repeat -398px 14px;
     display: block;
 }
 ul.social-icons li .icon-button .pinterest{
-    background:url(../images/img-sp.png) no-repeat -153px 14px;
+    background:url(../../media/img-sp.png) no-repeat -153px 14px;
     display: block;
 }
 ul.social-icons li .icon-button .pinterest:hover{
-    background:url(../images/img-sp.png) no-repeat -463px 14px;
+    background:url(../../media/img-sp.png) no-repeat -463px 14px;
     display: block;
 }
 /*-- //social-icons --*/
@@ -223,7 +223,7 @@ ul.social-icons li .icon-button .pinterest:hover{
 	text-align:center;
 }
 .banner-bottom-top span{
-	/* background: url(../images/img-sp.png) no-repeat 0px -57px;*/
+	/* background: url(../../media/img-sp.png) no-repeat 0px -57px;*/
     display: block;
     width: 84px;
     height: 140px;
@@ -244,7 +244,7 @@ ul.social-icons li .icon-button .pinterest:hover{
 	font-size: 1.5em;
     color: #F8BE1E;
     line-height: 1.8em;
-    margin: 2em auto;
+    margin: 1.5em auto;
     width: 65%;
     text-transform: capitalize;
     text-align: center;
@@ -252,7 +252,7 @@ ul.social-icons li .icon-button .pinterest:hover{
 }
 .banner-bottom-grids h3:before{
 	content: '';
-    background: url(../images/img-sp.png) no-repeat -8px -238px;
+    /* background: url(../../media/img-sp.png) no-repeat -8px -238px; */
     display: block;
     width: 25px;
     height: 25px;
@@ -262,7 +262,7 @@ ul.social-icons li .icon-button .pinterest:hover{
 }
 .banner-bottom-grids h3:after{
 	content: '';
-    background: url(../images/img-sp.png) no-repeat -56px -238px;
+    /* background: url(../../media/img-sp.png) no-repeat -56px -238px; */
     display: block;
     width: 25px;
     height: 25px;
@@ -316,7 +316,8 @@ ul.social-icons li .icon-button .pinterest:hover{
 }
 
 .teal:before{
-    background:rgba(57, 188, 84, 0.75);
+    /* background:rgba(57, 188, 84, 0.75);*/
+    background: rgba(0, 15, 74, 0.82);
 }
 .burst-circle:hover:before{
     -webkit-transform: scale(1.5,1.5);
@@ -327,7 +328,7 @@ ul.social-icons li .icon-button .pinterest:hover{
 }
 
 .burst-circle .caption {
-    background: url(../images/burst.png) no-repeat;
+    background: url(../../media/burst.png) no-repeat;
     background-position: 0 0;
     -webkit-animation: capcircleout 0.75s steps(20) forwards;
     -o-animation: capcircleout 0.75s steps(20) forwards;
@@ -874,21 +875,21 @@ figure.effect-julia:hover p {
     transform: scale(1.25) translateY(-5px);
 }
 .services-grid1-sub span{
-	background:url(../images/img-sp.png) no-repeat -134px -292px;
+	background:url(../../media/img-sp.png) no-repeat -134px -292px;
 	display:block;
 	width:68px;
 	height:68px;
 	margin:0 auto;
 }
 .services-grid1-sub1 span{
-	background:url(../images/img-sp.png) no-repeat -5px -292px;
+	background:url(../../media/img-sp.png) no-repeat -5px -292px;
 	display:block;
 	width:68px;
 	height:68px;
 	margin:0 auto;
 }
 .services-grid1-sub2 span{
-	background:url(../images/img-sp.png) no-repeat -255px -292px;
+	background:url(../../media/img-sp.png) no-repeat -255px -292px;
 	display:block;
 	width:68px;
 	height:68px;
@@ -921,7 +922,7 @@ figure.effect-julia:hover p {
 /*-- //services --*/
 /*-- services-bottom --*/
 .services-bottom{
-	background:url(../images/6.jpg) no-repeat 0px 0px;
+	background:url(../../media/wallpaper.jpg) no-repeat 0px -600px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -932,7 +933,7 @@ figure.effect-julia:hover p {
 	padding:3em 0;
 }
 .services-bottom-info1 span{
-    background:url(../images/img-sp.png) no-repeat -151px -198px;
+    background:url(../../media/img-sp.png) no-repeat -151px -198px;
     display: block;
     width: 68px;
     height: 68px;
@@ -1165,7 +1166,7 @@ figure.effect-julia:hover p {
     margin:1.5em 0 0;
 }
 .footer-grid-logo h3 a span{
-	background: url(../images/img-sp.png) no-repeat -8px -41px;
+	background: url(../../media/img-sp.png) no-repeat -8px -41px;
     display: block;
     width: 65px;
     height: 95px;
@@ -1209,7 +1210,7 @@ figure.effect-julia:hover p {
 	height: 32px;
 	border: none;
 	text-indent: 100%;
-	background: url(../images/arrow.png) no-repeat 0px 0px;
+	background: url(../../media/arrow.png) no-repeat 0px 0px;
 }
 #toTopHover {
 	width: 32px;
@@ -1235,7 +1236,7 @@ figure.effect-julia:hover p {
 }
 @media (max-width:1440px){
 	.banner {
-		/*background: url(../images/banner.jpg) no-repeat -120px 0px;*/
+		/*background: url(../../media/banner.jpg) no-repeat -120px 0px;*/
         background-color: #000f4a;
 		background-size: cover;
 		-webkit-background-size: cover;
@@ -1297,7 +1298,7 @@ figure.effect-julia:hover p {
 		width: 68%;
 	}
 	.banner {
-		/*background: url(../images/banner.jpg) no-repeat -245px 0px;*/
+		/*background: url(../../media/banner.jpg) no-repeat -245px 0px;*/
         background-color: #000f4a;
 		background-size: cover;
 		-webkit-background-size: cover;
@@ -1719,32 +1720,32 @@ figure.effect-julia:hover p {
 		height: 3rem;
 	}
 	ul.social-icons li .icon-button .icon-twitter {
-		background: url(../images/img-sp.png) no-repeat 8px 7px;
+		background: url(../../media/img-sp.png) no-repeat 8px 7px;
 	}
 	ul.social-icons li .icon-button .icon-google {
-		background: url(../images/img-sp.png) no-repeat -49px 6px;
+		background: url(../../media/img-sp.png) no-repeat -49px 6px;
 	}
 	ul.social-icons li .icon-button .icon-v {
-		background: url(../images/img-sp.png) no-repeat -108px 7px;
+		background: url(../../media/img-sp.png) no-repeat -108px 7px;
 	}
 	ul.social-icons li .icon-button .pinterest {
-		background: url(../images/img-sp.png) no-repeat -160px 7px;
+		background: url(../../media/img-sp.png) no-repeat -160px 7px;
 	}
 	ul.social-icons li .icon-button .icon-twitter:hover {
-		background: url(../images/img-sp.png) no-repeat -267px 7px;
+		background: url(../../media/img-sp.png) no-repeat -267px 7px;
 	}
 	ul.social-icons li .icon-button .icon-google:hover {
-		background: url(../images/img-sp.png) no-repeat -332px 6px;
+		background: url(../../media/img-sp.png) no-repeat -332px 6px;
 	}
 	ul.social-icons li .icon-button .icon-v:hover {
-		background: url(../images/img-sp.png) no-repeat -406px 7px;
+		background: url(../../media/img-sp.png) no-repeat -406px 7px;
 	}
 	ul.social-icons li .icon-button .pinterest:hover {
-		background: url(../images/img-sp.png) no-repeat -470px 7px;
+		background: url(../../media/img-sp.png) no-repeat -470px 7px;
 	}
 	.banner {
 		min-height: 455px;
-		/*background: url(../images/banner.jpg) no-repeat -220px 0px;*/
+		/*background: url(../../media/banner.jpg) no-repeat -220px 0px;*/
         background-color: #000f4a;
 		background-size: cover;
 		-webkit-background-size: cover;
@@ -1810,7 +1811,7 @@ figure.effect-julia:hover p {
 		margin: 1em 0 0 10em;
 	}
 	.banner {
-		/*background: url(../images/banner.jpg) no-repeat -270px 0px;*/
+		/*background: url(../../media/banner.jpg) no-repeat -270px 0px;*/
         background-color: #000f4a;
 		background-size: cover;
 		-webkit-background-size: cover;
@@ -1886,7 +1887,7 @@ figure.effect-julia:hover p {
 		margin: 5em 0 0;
 	}
 	.banner {
-		/*background: url(../images/banner.jpg) no-repeat -235px 0px;*/
+		/*background: url(../../media/banner.jpg) no-repeat -235px 0px;*/
         background-color: #000f4a;
 		background-size: cover;
 		-webkit-background-size: cover;
@@ -1964,7 +1965,7 @@ figure.effect-julia:hover p {
 		font-size: 13px;
 	}
 	.banner {
-		/*background: url(../images/banner.jpg) no-repeat -199px 0px;*/
+		/*background: url(../../media/banner.jpg) no-repeat -199px 0px;*/
         background-color: #000f4a;
 		background-size: cover;
 		-webkit-background-size: cover;
